@@ -14,6 +14,7 @@ Login padrão da aplicação.
  - Caso contrário clone o repositório e execute o programa via linda de comando com ````flutter run```` na pasta raiz do repositório.
  -  Fica mais fácil, a análise do código utilizando o [**Android Studio**](https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlIkuQhImjihjGh0lZVjSSGsAwlBTZigNuAdw-TTInSGBCKMYLxI4IAaAoQCEALw_wcB&gclsrc=aw.ds)
 
+---
 
 ### Telas
 <p align="center" > 
