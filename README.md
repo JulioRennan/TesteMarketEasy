@@ -10,7 +10,7 @@ Login padrão da aplicação.
 }
 ````
 ### Instruções de uso:
- - Execute o arquivo **app.apk** em seu dispositivo queira testar diretamente.
+ - Execute o arquivo **app.apk** em seu dispositivo, caso queira testar diretamente.
  - Caso contrário clone o repositório e execute o programa via linda de comando com ````flutter run```` na pasta raiz do repositório.
  -  Fica mais fácil, a análise do código utilizando o [**Android Studio**](https://developer.android.com/studio?hl=pt&gclid=Cj0KCQjw24qHBhCnARIsAPbdtlIkuQhImjihjGh0lZVjSSGsAwlBTZigNuAdw-TTInSGBCKMYLxI4IAaAoQCEALw_wcB&gclsrc=aw.ds)
 
