@@ -10,7 +10,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   Color primaryColor = Colors.blue[900]!;
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,6 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: primaryColor,
       ),
+      //Verifica se existe um token, ou se o token existente é válido, para poder redirecionar para a tela correta.
       home: FutureBuilder(
         future: ApiController.validaToken(),
         builder: (context, snapshot) {
