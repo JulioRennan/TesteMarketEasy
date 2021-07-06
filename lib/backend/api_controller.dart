@@ -5,14 +5,15 @@ import 'package:teste_marketeasy/backend/models/produtos.dart';
 
 class ApiController {
   static String token = "";
+  //funcao que verifica se existe um token salvo no SP do android, caso exista verifica também se o tempo de validade dele não expirou.
+  //retorna false caso o token não seja valido, se for carrega na variavel "token" e as requisições da api podem ser feitas tranquilamente.
   static Future<bool> validaToken() async {
     SharedPreferences sp = await SharedPreferences.getInstance();
     String? tokenExp = sp.getString("token_exp");
     if (tokenExp != null) {
       List auxDate = tokenExp.split(" ")[0].split('-');
       String auxHour = tokenExp.split(" ")[1];
-      DateTime dateExp =
-          DateTime.parse("${auxDate.reversed.join("-")} ${auxHour}");
+      DateTime dateExp =DateTime.parse("${auxDate.reversed.join("-")} ${auxHour}");
       DateTime dateNow = DateTime.now();
       token = sp.getString("token")!;
       if (dateExp.millisecondsSinceEpoch > dateNow.millisecondsSinceEpoch)
