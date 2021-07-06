@@ -53,12 +53,6 @@ Login padrão da aplicação.
 
 <img style="border-radius: 50%;" src="https://media-exp3.licdn.com/dms/image/C4D03AQEET_PIFFi3Bg/profile-displayphoto-shrink_800_800/0/1615702283090?e=1631145600&v=beta&t=13BaJch4ahIM5Y5Iak5j1yawePZHCv9Gy_NxCW3dTtg" width="100px;" alt=""/>
 
- <br />
-
 Feito com ❤️ por **Julio Rennan!**
-
-
-<br/>
-
 
 [![Linkedin Badge](https://img.shields.io/badge/-Julio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/julio-souza-4ab63b1aa/)](https://www.linkedin.com/in/julio-souza-4ab63b1aa/) 
